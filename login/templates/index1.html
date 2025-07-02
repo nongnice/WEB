@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--TODO href="/static/styles.css" rel="stylesheet"-->
+        <title>birthdays</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>birthdays</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>add a birthday {{ placeholder }}</h2>
+                <!--TODO: create afprm fpr a user to-->
+                <form action="/" medthod="POST">
+                    <input name="friend" type="text">
+                    <input name="month" type="number">
+                    <input name="day" type="number">
+                    <input type="submit" value="Add binary">
+
+                </form>
+            </div>
+            <div class="section">
+                <h2>all birthdays</h2>
+                <table>
+
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

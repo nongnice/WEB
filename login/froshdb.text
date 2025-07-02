@@ -1,0 +1,8 @@
+CREATE TABLE "registrants"(
+"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+"sport" TEXT NOT NULL,
+"name" TEXT NOT NULL
+);
+
+
+INSERT INTO registrants (name, sport) VALUES('Nice', 'Basketball');
