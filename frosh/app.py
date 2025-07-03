@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 conn=sqlite3.connect('frosh.db', check_same_thread=False)
-
+#test git
 
 SPORTS = [
        "Basketball",
